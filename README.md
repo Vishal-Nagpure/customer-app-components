@@ -1,4 +1,4 @@
-# customer-app-components
+# Customer App
 
 The goal is to find out list of customers within given range in km. 
 The application is design to stream all customer data and filter out and output only those customer Ids who are within given distance X.
