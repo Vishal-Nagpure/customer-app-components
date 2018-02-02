@@ -1,38 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c23198ce-23fa-4080-aadc-6fea2a7dc55c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/customer/client/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/customer/conf/ConfigurationManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/customer/conf/ConfigurationReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/customer/conf/DefaultConfigurationReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/customer/exception/ConfigurationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/customer/exception/InvalidConfigKeyException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" />
+    <list default="true" id="c23198ce-23fa-4080-aadc-6fea2a7dc55c" name="Default" comment="Make property configuration driven">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jcommander.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/testng.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/CustomerApp.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/CustomerCatalog.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/FileSystemCustomerCatalog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/distance/DistanceCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/distance/DistanceCalculatorImpl.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/distance/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/entity/Customer.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/entity/UserIdComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/customer/entity/UserIdComparator.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/customer/distance/Location.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/entity/Location.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/CustomerApp.class" afterPath="$PROJECT_DIR$/out/production/customer-app/com/customer/CustomerApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/distance/DistanceCalculator.class" afterPath="$PROJECT_DIR$/out/production/customer-app/com/customer/distance/DistanceCalculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/distance/DistanceCalculatorImpl.class" afterPath="$PROJECT_DIR$/out/production/customer-app/com/customer/distance/DistanceCalculatorImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/entity/Customer.class" afterPath="$PROJECT_DIR$/out/production/customer-app/com/customer/entity/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/util/Constants.class" afterPath="$PROJECT_DIR$/out/production/customer-app/com/customer/util/Constants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/customer-app/com/customer/CustomerAppTest.class" afterPath="$PROJECT_DIR$/out/test/customer-app/com/customer/CustomerAppTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/com/customer/util/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/customer-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/customer-app/main/resources/customer-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/customer-app/com/customer/CustomerAppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/com/customer/CustomerAppTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/customer/CustomerApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/CustomerApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/customer/catalog/CustomerCatalog.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/catalog/CustomerCatalog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/customer/catalog/FileSystemCustomerCatalog.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/catalog/FileSystemCustomerCatalog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/customer/distance/DistanceCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/distance/DistanceCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/customer/distance/DistanceCalculatorImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/distance/DistanceCalculatorImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/customer/entity/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/entity/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/customer/util/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/com/customer/util/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/customer/CustomerAppTest.java" afterPath="$PROJECT_DIR$/src/test/com/customer/CustomerAppTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customer-app.iml" afterPath="$PROJECT_DIR$/customer-app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +36,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configuration.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/customer/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerAppTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/customer/CustomerAppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/customer/conf/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/customer/exception/InvalidConfigKeyException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/customer/entity/Location.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/configuration.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/customer/conf/ConfigurationManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/customer/catalog/CustomerCatalog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/customer/catalog/FileSystemCustomerCatalog.java" />
@@ -87,6 +135,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/customer/client/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/customer/CustomerApp.java" />
         <option value="$PROJECT_DIR$/src/test/com/customer/ConfigurationReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/configuration.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -95,6 +146,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -141,61 +199,6 @@
               <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="customer-app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="customer-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="customer-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -220,6 +223,9 @@
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="com.customer.util.Constants" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.customer" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.customer.exception" />
@@ -429,28 +435,64 @@
       <updated>1517406099727</updated>
       <workItem from="1517406101071" duration="1923000" />
       <workItem from="1517414001283" duration="8114000" />
-      <workItem from="1517461949153" duration="19886000" />
+      <workItem from="1517461949153" duration="21625000" />
     </task>
+    <task id="LOCAL-00001" summary="Stream customer data instead of loading everything in-memory">
+      <created>1517556876705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517556876706</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Make configuration property driven">
+      <created>1517556966196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517556966196</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Client">
+      <created>1517556982114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517556982114</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correct formula for calculating distance between 2 points">
+      <created>1517557048233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517557048233</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add tests">
+      <created>1517557079984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1517557079984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerAppTest - 2018.02.01 at 00h 08m 52s.xml">
-      <configuration name="CustomerAppTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CustomerAppTest - 2018.02.02 at 10h 27m 48s.xml">
       <configuration name="CustomerAppTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="CustomerAppTest - 2018.02.02 at 12h 42m 43s.xml">
       <configuration name="CustomerAppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomerAppTest_should_return_customer_within_100_km - 2018.01.31 at 23h 45m 17s.xml">
-      <configuration name="CustomerAppTest.should_return_customer_within_100_km" configurationId="TestNG" />
+    <history-entry file="CustomerAppTest - 2018.02.02 at 14h 11m 10s.xml">
+      <configuration name="CustomerAppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomerAppTest_should_return_customer_within_100_km - 2018.02.01 at 00h 03m 42s.xml">
-      <configuration name="CustomerAppTest.should_return_customer_within_100_km" configurationId="TestNG" />
+    <history-entry file="CustomerAppTest - 2018.02.02 at 14h 11m 50s.xml">
+      <configuration name="CustomerAppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CustomerAppTest_should_return_customer_within_100_km - 2018.02.01 at 00h 04m 11s.xml">
-      <configuration name="CustomerAppTest.should_return_customer_within_100_km" configurationId="TestNG" />
+    <history-entry file="CustomerAppTest - 2018.02.02 at 14h 11m 58s.xml">
+      <configuration name="CustomerAppTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CustomerAppTest - 2018.02.02 at 14h 16m 19s.xml">
+      <configuration name="CustomerAppTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="CustomerAppTest_should_return_customer_within_100_km - 2018.02.01 at 00h 04m 48s.xml">
       <configuration name="CustomerAppTest.should_return_customer_within_100_km" configurationId="TestNG" />
@@ -466,10 +508,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29923000" />
+    <option name="totallyTimeSpent" value="31662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -492,8 +535,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32749325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32614556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -551,6 +594,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Stream customer data instead of loading everything in-memory" />
+    <MESSAGE value="Make property configuration driven" />
+    <MESSAGE value="Make configuration property driven" />
+    <MESSAGE value="Add Client" />
+    <MESSAGE value="Correct formula for calculating distance between 2 points" />
+    <MESSAGE value="Add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -585,9 +637,9 @@
         <state relative-caret-position="270">
           <caret line="18" column="78" lean-forward="true" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -605,18 +657,16 @@
         <state relative-caret-position="345">
           <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/customer/CustomerAppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/customer/CustomerAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="36" column="92" lean-forward="false" selection-start-line="36" selection-start-column="92" selection-end-line="36" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,10 +683,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -654,7 +704,7 @@
         <state relative-caret-position="435">
           <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -672,9 +722,9 @@
         <state relative-caret-position="105">
           <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,8 +783,8 @@
         <state relative-caret-position="330">
           <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -744,8 +794,8 @@
         <state relative-caret-position="165">
           <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -755,8 +805,8 @@
         <state relative-caret-position="675">
           <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -774,7 +824,7 @@
         <state relative-caret-position="71">
           <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,20 +845,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/customer/conf/ConfigurationManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,16 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/customer/CustomerAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/customer/conf/ConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -852,7 +884,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -875,11 +907,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/customer/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="178">
+          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/customer/CustomerAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
