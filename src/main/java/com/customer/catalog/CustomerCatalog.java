@@ -1,8 +1,15 @@
 package com.customer.catalog;
 
-import java.util.List;
+import com.customer.entity.Customer;
 
+/**
+ * Interface for all customer related functionality.
+ *
+ * @author vishal_nagpure
+ */
 public interface CustomerCatalog {
 
-    List<String> getAllCustomer();
+    boolean hasMoreCustomers();
+
+    Customer getCustomer();
 }
