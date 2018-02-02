@@ -1,18 +1,12 @@
 package com.customer.client;
 
-import com.customer.CustomerApp;
-import com.customer.catalog.CustomerCatalog;
-import com.customer.catalog.FileSystemCustomerCatalog;
-import com.customer.conf.ConfigurationManager;
-import com.customer.distance.DistanceCalculatorImpl;
+import com.customer.CustomerHandler;
 import com.customer.entity.Customer;
-import com.customer.entity.Location;
 import com.customer.exception.ConfigurationException;
 import com.customer.exception.InvalidConfigKeyException;
 
 import java.io.FileNotFoundException;
 import java.util.Set;
-import java.util.TreeSet;
 
 /**
  * Starting point of application
@@ -28,18 +22,12 @@ public class Client {
             System.exit(0);
         }
 
-        CustomerApp customerApp = new CustomerApp(new DistanceCalculatorImpl());
-        CustomerCatalog customerCatalog = new FileSystemCustomerCatalog(ConfigurationManager.getConfigurationManager());
-        Location officeLocation = new Location(53.339428, -6.257664);
-        final Set<Customer> customerList = new TreeSet<>();
+        final int distance = Integer.parseInt(args[0]);
+        final CustomerHandler customerHandler = new CustomerHandler();
+        final Set<Customer> customerList = customerHandler.getCustomersWithinDistance(distance);
 
-        while (customerCatalog.hasMoreCustomers()) {
-            Customer customer = customerCatalog.getCustomer();
-            if (customerApp.isLocationUnderDistance(customer, Integer.parseInt(args[0]), officeLocation))
-                customerList.add(customer);
-        }
-
+        System.out.println("There are " + customerList.size() + " customers within distance " + distance);
         System.out.println(customerList);
-        System.out.println(customerList.size());
     }
+
 }
