@@ -18,4 +18,4 @@ Following are the steps to setup and build the project
     `mvn clean install` 
 3. Open target/conf/configuration.properties and add values for all the properties as per instructions in the file.
 4. Run the project 
-    `java -jar target/customer-app-1.0.jar`
+    `java -jar target/customer-app-1.0.jar 100`
