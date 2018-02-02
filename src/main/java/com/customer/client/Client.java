@@ -35,7 +35,7 @@ public class Client {
 
         while (customerCatalog.hasMoreCustomers()) {
             Customer customer = customerCatalog.getCustomer();
-            if (customerApp.isLocationUnderDistance(customer, 100, officeLocation))
+            if (customerApp.isLocationUnderDistance(customer, Integer.parseInt(args[0]), officeLocation))
                 customerList.add(customer);
         }
 
