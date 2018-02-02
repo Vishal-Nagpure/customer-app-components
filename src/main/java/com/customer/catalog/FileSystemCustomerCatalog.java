@@ -5,6 +5,8 @@ import com.customer.entity.Customer;
 import com.customer.entity.Location;
 import com.customer.exception.InvalidConfigKeyException;
 import com.customer.util.Constants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -18,6 +20,7 @@ import java.io.IOException;
  */
 public class FileSystemCustomerCatalog implements CustomerCatalog {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(FileSystemCustomerCatalog.class);
     private String fileName;
     private BufferedReader br;
     private Customer customer;
@@ -46,7 +49,7 @@ public class FileSystemCustomerCatalog implements CustomerCatalog {
                 resolveField(customer, tuple);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.error("Exception while reading data from file ", e);
         }
     }
 

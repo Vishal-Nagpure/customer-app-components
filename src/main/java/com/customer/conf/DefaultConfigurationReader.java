@@ -2,6 +2,8 @@ package com.customer.conf;
 
 import com.customer.exception.ConfigurationException;
 import com.customer.exception.InvalidConfigKeyException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,6 +17,7 @@ import java.util.*;
  */
 public class DefaultConfigurationReader implements ConfigurationReader {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(DefaultConfigurationReader.class);
     private final Map<String, String> propertyMap = new HashMap<>();
     private InputStream inputStream = null;
 
@@ -37,7 +40,7 @@ public class DefaultConfigurationReader implements ConfigurationReader {
             properties.load(inputStream);
             storePropertiesInMemory(properties);
         } catch (IOException e) {
-            e.printStackTrace();
+            LOGGER.error("Exception while reading data from file ", e);;
         }
     }
 

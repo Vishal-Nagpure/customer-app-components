@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="3 Minutes">
+
+    <!-- Default logging level must be set to "warn" in production -->
+    <logger name="com.customer" level="INFO" />
+
+</configuration>
